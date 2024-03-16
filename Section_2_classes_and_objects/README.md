@@ -12,8 +12,18 @@
 - The class object is created when the class definition is executed
 - In a method definition, the parameter self refers to the <b>instance object that invokes the method</b>
 - Instantiation of the class creates a new instance object
+- Initializationi work is done automatically by Python if you define the `__init__` (_dunder init method_)
+- You can create and initialize all your instance variables in this method
+- You can also perform any other initialization tasks
+- The first parameter to `__init__` is always `self`
+- Other parameters are used to give initial values to instance variables
+- There are other dunder methods also having special names (magic methods that are called directly)
+- To construct an instance, the `__new__` magic method invoked
+- `__init__` is the initializer method
+- You can have only one `__init__` in a class
 
 #### Self notes
 - Uma classe é um 'modelo' que define as características e comportamentos de objetos.
 - Uma instância é um objeto específico criado a partir de uma classe. A classe seria a concepção do objeto, enquanto a instância é a concretização 'física' do objeto, ou manifestção/criação.
 - Cada instância têm seu próprio conjunto de atributos (características) e métodos (ações).
+- O método __init__ é sempre chamado quando um objeto da classe é instanciado

@@ -1,10 +1,10 @@
 class Person:
-    def set_details(self, name, age):
+    def __init__(self, name, age):
         self.name = name
         self.age = age
 
     def display(self):
-        return print("I am", self.name)
+        print(f"I am {self.name} and i'm {self.age} years old")
 
     def greet(self):
         if self.age < 80:
@@ -13,16 +13,13 @@ class Person:
             print("Hello, how do you do")   
         self.display()         
 
-person_1 = Person()
-person_2 = Person()
+person_1 = Person('Amelia', 54)
+person_2 = Person('Jonas', 78)
 
-person_1.set_details('Bob', 20)
-person_2.set_details('Ted', 90)
-
-#person_1.display()
+person_1.display()
 person_1.greet()
 
-#person_2.display()
+person_2.display()
 person_2.greet()
 
 
