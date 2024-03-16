@@ -1,5 +1,7 @@
-# Python POO Object Oriented Programming in Python | Udemy <br>
+
 <div align='center'>
+  
+# Python POO Object Oriented Programming in Python | Udemy <br>  
   
 [![](https://img.shields.io/badge/python-3.7.0-informational)]()  [![](https://img.shields.io/badge/Udemy-OOP-green)](https://www.udemy.com/course/object-oriented-python-programming/learn/lecture/18241898#overview) [![](https://img.shields.io/badge/SourceCode-DeepaliSrivastava-orange)](https://github.com/Deepali-Srivastava/object-oriented-programming-in-python) 
 
