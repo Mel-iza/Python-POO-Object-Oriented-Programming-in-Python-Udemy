@@ -12,4 +12,8 @@
 - The class object is created when the class definition is executed
 - In a method definition, the parameter self refers to the <b>instance object that invokes the method</b>
 - Instantiation of the class creates a new instance object
-- 
+
+#### Self notes
+- Uma classe é um 'modelo' que define as características e comportamentos de objetos.
+- Uma instância é um objeto específico criado a partir de uma classe. A classe seria a concepção do objeto, enquanto a instância é a concretização 'física' do objeto, ou manifestção/criação.
+- Cada instância têm seu próprio conjunto de atributos (características) e métodos (ações).
